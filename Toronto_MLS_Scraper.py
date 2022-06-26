@@ -75,7 +75,7 @@ for index, URL in enumerate(URLS):
     realtor = realtor[27:realtor.find("</span>")]
     phone = contractor_DIV[contractor_DIV.find('<span class="phone">')+len('<span class="phone">'):]
     phone = phone[:phone.find("</span>")]
-    print(f"{address} complete..")
+    print(f"{address}..")
 
     output_list.append(listing())
     listings_index = len(output_list) - 1
